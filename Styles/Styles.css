@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+/* Landing Page */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar-container ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-container ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.navbar-container ul li a {
+    text-decoration: none;
+    color: inherit;
+    gap: 48px;
+}
+
+.greenmind img {
+    padding-left: 70px;
+}
+
+/* Landing page start */
+.landing-page-start {
+    display: flex;
+    margin: 0 auto;
+    border-radius: 24px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #C1DCDC;
+    height: auto;
+    max-width: 1248px;
+    width: 100%;
+    position: relative;
+}
+
+.landing-page-start h1 {
+    font-weight: 800;
+    font-size: 3.5vw;
+    line-height: 1.2em;
+    padding: 2.5vw;
+}
+
+.landing-page-start .left-section {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.landing-page-start .details {
+    display: flex;
+    height: 75px;
+    width: 318px;
+    gap: 15px;
+    padding-left: 25px;
+}
+
+.landing-page-start .details img {
+    width: 1px;
+    height: 64px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    rotate: -90deg;
+}
+
+.landing-page-start .right-section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    height: auto;
+}
+
+.black-container {
+    width: 90%;
+    max-width: 400px;
+    height: 390px;
+    background-color: black;
+    border-radius: 200px 200px 0px 200px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.landing-page-start .right-section img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+}
+
+/* Landing Page End */
+.landing-page-end {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 65px;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.landing-page-end img {
+    width: 100%;
+    max-width: 299px;
+    height: 363px;
+    border-radius: 12px;
+}
+
+.text-about {
+    max-width: 256px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.text-about h2,
+.text-about p {
+    margin: 0;
+}
+
+/* About Section */
+.about {
+    background-color: #FFFFFF;
+    padding: 40px 16px;
+    width: 100%;
+}
+
+.about-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-us {
+    margin-bottom: 40px;
+}
+
+.about-us h3 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.about-us p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    margin: 0;
+}
+
+.amenities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.assortment, .shipping {
+    max-width: 300px;
+    text-align: center;
+}
+
+.assortment h4, .shipping h4 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.amenities p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#1E1E1E80;
+}
+
+/* Categories Section */
+.categories-container {
+    background-color: #FFFFFF;
+    padding: 20px 16px;
+    width: 100%;
+}
+
+.heading-section {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.image-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: #C1DCDC;
+    padding: 48px 0;
+    width: 100%;
+    gap: 12px;
+}
+
+.image-section img {
+    width: 100%;
+    max-width: 352px;
+    height: 551px;
+    border-radius: 12px;
+    flex: 1;
+}
+.categories-container figcaption{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+}
+.categories-container p{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color:#1E1E1E80;
+}
+
+/* Testimonial Section */
+.testimonial {
+    background-color: #FFFFFF;
+    padding: 40px 16px;
+    width: 100%;
+}
+
+.testimonial-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 40px;
+    text-align: left;
+    padding-left: 85px;
+}
+
+.title h3 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.review-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.review1-container, .review2-container {
+    flex: 1;
+    max-width: 600px;
+    border-radius: 12px;
+    background-color: #C1DCDC;
+    padding: 30px;
+}
+
+blockquote {
+    margin: 0;
+    position: relative;
+}
+
+blockquote i {
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    font-size: 24px;
+    color: #555;
+}
+
+.review1 p, .review2 p {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 10px 0;
+}
+
+.review-author {
+    text-align: left;
+    font-weight: 500; 
+}
+
+.role {
+    font-size: 14px; 
+    color: #555;
+    margin-top: 5px; 
+}
+
+.highlight {
+    font-weight: 700; 
+}
+
+/* Footer */
+.footer {
+    background-color: #C1DCDC;
+    padding: 40px 16px;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.left-section {
+    flex: 1;
+    max-width: 400px;
+    padding-left: 16px;
+    padding-right: 20px;
+}
+
+.left-section h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.left-section p {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 10px 0;
+    color: #1E1E1E80;
+    padding-left:60px;
+}
+.left-section img{
+    padding-left: 60px;
+}
+.right-section {
+    display: flex;
+    justify-content: space-between;
+    flex: 2;
+    max-width: 600px;
+}
+.left-section .logos{
+    display: flex;
+    height: 48px;
+    width: 48px;
+    gap: 0px;
+}
+
+.right-section div {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.right-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.right-section li {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.right-section li b {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
