@@ -515,95 +515,57 @@ blockquote img {
 /* Footer */
 .footer {
   background-color: #c1dcdc;
-  padding: 40px 16px;
-  width: 100%;
+  margin-top: 230px;
+  padding: 48px 96px;
   min-width: 1228px;
 }
 
 .footer-container {
-  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1247px;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
 }
 
-.footer-container .left-section {
-  flex: 1;
-  max-width: 400px;
-  padding-left: 16px;
-  padding-right: 20px;
+.left-footer ul {
+  list-style: none;
 }
 
-.footer-container .left-section h4 {
-  font-size: 24px;
-  font-weight: 700;
-  margin-bottom: 10px;
+.left-footer ul li {
+  margin-bottom: 20px;
 }
 
-.footer-container .left-section p {
+.left-footer p {
   font-size: 18px;
-  line-height: 27px;
-  font-weight: 500;
+  color: #1e1e1e80;
   margin: 10px 0;
-  color: #1e1e1e80;
-  padding-left: 60px;
+  font-weight: 500;
 }
 
-.footer-container .left-section img {
-  padding-left: 60px;
-}
-
-.footer-container .right-section {
-  display: flex;
-  justify-content: space-between;
-  flex: 2;
-  max-width: 600px;
-}
-
-.footer-container.left-section .logos a {
-  display: flex;
+.social-media-icons img {
+  width: 48px;
   height: 48px;
-  gap: 5px;
+  margin-right: 10px;
 }
 
-.footer-container .left-section .logos img {
-  height: auto;
-  max-height: 30px;
-}
-.footer-container .left-section .logos a {
-  gap: 10px;
-}
-.footer-container .right-section div {
-  flex: 1;
-  /* padding: 0 10px; */
+.right-footer {
+  display: flex;
+  gap: 48px;
 }
 
-.footer-container .right-section ul {
+.right-footer ul {
   list-style: none;
-  padding: 0;
 }
 
-.right-section li {
-  margin: 8px 0;
+.right-footer ul li {
+  margin-bottom: 10px;
   font-size: 18px;
-  color: #1e1e1e80;
   font-weight: 400;
-  line-height: 27px;
+  color: #1e1e1e80;
 }
 
-.footer .right-section .heading {
-  display: block;
-  margin-bottom: 5px;
+.right-footer ul li:first-child {
   color: #1e1e1e;
-  font-family: Poppins;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 27px;
-  text-align: left;
-}
-.footer .right-section a {
-  list-style: none;
-  text-decoration: none;
-  gap: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
